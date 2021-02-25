@@ -1,0 +1,57 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+}
+.btn{
+  padding: 10px;
+}
+
+footer{
+  margin-top: 1rem;
+  padding: 0rem;
+  background-color: rgb(235, 195, 64);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.card{
+ transition: transform 0.5s;
+}
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.addcart{
+  transition: transform 0.5s;
+}
+.addcart:hover{
+  transform: translateY(-5px);
+}
+
+.removecart{
+  transition: transform 0.5s;
+}
+.removecart:hover{
+  transform: translateY(-5px);
+}
+
+
+/* @media screen and (min-width: 1020px){
+  .home {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+} */
+
+
+
